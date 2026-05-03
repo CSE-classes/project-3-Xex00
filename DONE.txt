@@ -1,0 +1,11 @@
+Name- Huy Thai
+ID- 1002140400
+
+Modifications done for my_list_forming
+-Local list so each thread uses lock less
+-pthread_mutex_lock used instead of pthread_mutex_trylock so that it isn't wasting cpu power and just waits so that cpu power can go to other threads. When lock is free, OS turns the thread back on.
+
+Issues
+-Strings.txt not included like the instructions said so one was made. Same for message.txt
+-The starting code provided had a typo in String_pthread.c where instead of looking for string.txt, it looked for strings.txt.
+   Just to keep it in line with the given code in case it is graded with a strings.txt file, the typo wasn't fixed.
