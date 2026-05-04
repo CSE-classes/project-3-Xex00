@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 
 int readf(FILE *fp)
 {
-	if((fp=fopen("strings.txt", "r"))==NULL){
+	if((fp=fopen("string.txt", "r"))==NULL){
 		printf("ERROR: can't open string.txt!\n");
 		return 0;
 	}

@@ -7,5 +7,4 @@ Modifications done for my_list_forming
 
 Issues
 -Strings.txt not included like the instructions said so one was made. Same for message.txt
--The starting code provided had a typo in String_pthread.c where instead of looking for string.txt, it looked for strings.txt.
-   Just to keep it in line with the given code in case it is graded with a strings.txt file, the typo wasn't fixed.
+-The starting code provided had a typo in String_pthread.c where instead of looking for string.txt, it looked for strings.txt. Typo was fixed just in case.
